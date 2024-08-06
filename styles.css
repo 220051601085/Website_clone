@@ -1,0 +1,96 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e9f4; /* Light purple background */
+}
+
+header {
+    background-color: #6a1b9a; /* Dark purple header */
+    color: #fff;
+    padding: 15px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile {
+    background-color: #ffffff; /* White background for profile section */
+    padding: 30px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.profile h1 {
+    margin: 10px 0;
+    color: #4a148c; /* Purple text color */
+}
+
+.profile p {
+    margin: 5px 0;
+    color: #6a1b9a; /* Darker purple text color */
+}
+
+.repositories {
+    background-color: #ffffff; /* White background for repositories section */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+.repositories h2 {
+    margin-top: 0;
+    color: #6a1b9a; /* Dark purple text color */
+}
+
+.repository {
+    border-bottom: 1px solid #e1bee7; /* Light purple border */
+    padding: 10px 0;
+}
+
+.repository:last-child {
+    border-bottom: none;
+}
+
+.repository h3 {
+    margin: 5px 0;
+    color: #4a148c; /* Purple text color */
+}
+
+.repository p {
+    margin: 5px 0;
+    color: #6a1b9a; /* Darker purple text color */
+}
+
+footer {
+    background-color: #6a1b9a; /* Dark purple footer */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
